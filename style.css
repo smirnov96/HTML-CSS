@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+body {
+    max-width: 1000px;
+    margin: 0% auto;
+}
+
+.info {
+    display: flex;
+    background-color: #364C59;
+    color: white;
+    font-family: "Montserrat";
+}
+
+#avatar {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 15px 0 15px 20px;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
+}
+
+.name {
+    padding-left: 50px;
+    display: block;
+}
+
+.name p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+i {
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.skills-work {
+    display: flex;
+    font-family: "lato";
+}
+
+.skills {
+    background-color: #A9C6D9;
+    color: black;
+    width: 300px;
+    padding-left: 20px;
+}
+
+.work-education {
+    background-color: #D5E5F2;
+    padding-left: 20px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.work-table {
+    border-collapse: separate;
+    border-spacing: 30px 5px;
+}
+
+.education-table {
+    border-collapse: separate;
+    border-spacing: 40px 5px;
+}
+
+.td {
+    font-weight: 700;
+}

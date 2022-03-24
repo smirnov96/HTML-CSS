@@ -1,96 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
-</head>
-<body>
-<header>
-    <table>
-        <tr>
-            <td>
-                <img src="avatar.png" alt="photo" width="200">
-            </td>
-            <td>
-                <h1>Smirnov Artem</h1>
-               <nav>
-                   <h2>Contacts</h2>
-                   <ul>
-                    <li>&#9993; <a href="smirnov96.work@gmail.com">smirnov96.work@gmail.com</a></li>
-                    <li>&#9742; +375333257439</li>
-                </ul>
-               </nav>
-            </td>
-    </table>
-</header>
-<hr>
-<main>
-    <section>
-        <h2>Objective</h2>
-        <p><strong>Front-end Developer</strong></p>
-    </section>
-<section>
-    <h2>Position held</h2>
-    <ul>
-        <li><b>Electrician</b></li>
-        <li><b>Foreman supervisor</b></li>
-    </ul>
-</section>
-<section>
-    <h2>Duties</h2>
-    <ul>
-    <li><b>Organization of work and maintenance of the technological process;</b></li>
-    <li><b>Monitoring the implementation of the approved work plan by the workers of the brigade;</b></li>
-    <li><b>Placement of workers;</b></li>
-    <li><b>Quality control of work performed</b></li>
-    <li><b>Providing jobs with materials, tools and parts;</b></li>
-    <li><b>Participation in the repair and adjustment of equipment.</b></li>
-</ul>
-</section>
-<section>
-    <h2>Place of work</h2>
-    <table>
-      <tr>
-          <th>Company name</th>
-          <th>Working hours</th>
-      </tr>
-      <tr>
-          <td>Hrodnoenergo</td>
-          <td>08-2015-Present</td>
-      </tr>
-  </table>  
-</section>
-<section>
-    <h2>Education</h2>
-    <table>
-        <tr>
-            <th>Retraining Front-end Developer</th>
-            <td>12-2021-Present</td>
-        </tr>
-        <tr>
-            <th>College Electrotechnical</th>
-            <td>2013-2018</td>
-        </tr>
-        <tr>
-            <th>School</th>
-            <td>2003-2013</td>
-        </tr>
-    </table>
-    <h3>Courses</h3>
-    <ul>
-        <li><strong>Front End/JavaScript Developers Course 2021/2022</strong></li>
-        <li><strong>htmlacademy</strong></li>
-        <li><strong>Codebra</strong></li>
-    </ul>
-</section>
-<section>
-<h2>Languages</h2>
-    <ul>
-        <li><b>Russian</b></li>
-        <li><b>English A0</b></li>
-    </ul>
-</section>
-</main>
-</body>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/1af72695b7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="info">
+      <img id="avatar" src="avatar.png" alt="photo" />
+      <div class="name">
+        <h1>Smirnov Artem</h1>
+        <div class="contacts">
+          <p>
+            <i class="fa-regular fa-envelope"></i
+            ><a href="smiart.smirnoff@yandex.ru">smiart.smirnoff@yandex.ru</a>
+          </p>
+          <p><i class="fa-solid fa-phone"></i>+375333257439</p>
+        </div>
+      </div>
+    </header>
+
+    <main class="skills-work">
+      <div class="skills">
+        <section>
+          <h2>Soft skills</h2>
+          <p>Communication's</p>
+          <p>Ability to work in a team</p>
+          <p>Creativity</p>
+          <p>Punctuality</p>
+          <p>Balanced</p>
+        </section>
+
+        <section>
+          <h2>Hard skills</h2>
+
+          <h3>Programming Languages</h3>
+          <ul>
+            <li><p>CSS3</p></li>
+            <li><p>HTML5</p></li>
+          </ul>
+
+          <h3>Languages</h3>
+          <ul>
+            <li><p>Rassian</p></li>
+            <li><p>English A0</p></li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="work-education">
+        <section>
+          <h2>Place of work</h2>
+          <table class="work-table">
+            <thead>
+              <tr>
+                <th>Company name</th>
+                <th>Working hours</th>
+              </tr>
+            </thead>
+
+            <tr>
+              <td>Hrodnoenergo</td>
+              <td>08-2015-Present</td>
+            </tr>
+          </table>
+        </section>
+
+        <section>
+          <h2>Position held</h2>
+          <ul>
+            <li>Electrician</li>
+            <li>Foreman supervisor</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>Duties</h2>
+          <p>
+            Organization of work and maintenance of the technological process;
+          </p>
+          <p>
+            Monitoring the implementation of the approved work plan by the
+            workers of the brigade;
+          </p>
+          <p>Placement of workers;</p>
+          <p>Quality control of work performed;</p>
+          <p>Providing jobs with materials, tools and parts;</p>
+          <p>Participation in the repair and adjustment of equipment.</p>
+        </section>
+
+        <section>
+          <h2>Education</h2>
+          <table class="education-table">
+            <tr>
+              <td class="td">Electrotechnical</td>
+              <td>2013-2018</td>
+            </tr>
+            <tr>
+              <td class="td">School</td>
+              <td>2003-2013</td>
+            </tr>
+          </table>
+        </section>
+      </div>
+    </main>
+  </body>
 </html>
